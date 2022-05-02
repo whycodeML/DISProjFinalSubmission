@@ -14,7 +14,7 @@ namespace DataGov_API_Intro_6.Controllers
         HttpClient httpClient;
 
         static string BASE_URL = "https://ott-details.p.rapidapi.com";
-        static string API_KEY = "616c962c96msh9d86710786b058ep15681fjsn0e1d873c6f5d"; //Add your API key here inside ""
+        static string API_KEY = "536e6d60c7mshcb8bb308540b249p1557adjsnf190a869d116"; //Add your API key here inside ""
 
         // Obtaining the API key is easy. The same key should be usable across the entire
         // data.gov developer network, i.e. all data sources on data.gov.
@@ -114,7 +114,7 @@ namespace DataGov_API_Intro_6.Controllers
                 Headers =
 {
 { "X-RapidAPI-Host", "ott-details.p.rapidapi.com" },
-{ "X-RapidAPI-Key", "616c962c96msh9d86710786b058ep15681fjsn0e1d873c6f5d" },
+{ "X-RapidAPI-Key", "536e6d60c7mshcb8bb308540b249p1557adjsnf190a869d116" },
 },
             };
 
